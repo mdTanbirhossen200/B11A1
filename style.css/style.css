@@ -263,7 +263,9 @@ tr td select {
 #active{
     background-color: rgba(0, 106, 62, 0.37);
     padding: 200px;
+
 }
+
 
 #donate button{
     color: white;
@@ -286,16 +288,19 @@ tr td select {
     border: 0;
     outline: 0;
     padding:10px;
-    width: 50%;
+    width: 450px;
     border-radius:10px 0px 0px 10px;
     
 }
 
-#subscribe span{
+#subscribe button{
     background: rgb(0, 106, 80);
     padding: 8px;
     color: white;
     border-radius:0px 10px 10px 0px;
+    border: 0;
+    outline: 0;
+    margin-left: -2px;
 }
 
 footer{
@@ -303,6 +308,8 @@ footer{
     background-color: white;
     margin-bottom: 50px;
 }
+
+
 
 /* test{
  
