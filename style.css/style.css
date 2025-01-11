@@ -1,0 +1,306 @@
+#all-part {
+    margin: 0 5% 0 5%;
+    background-color: aliceblue;
+}
+
+#btn {
+    padding: 13px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+
+.first {
+    font-size: large;
+    justify-content: space-between;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 0px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.first2 {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+#fi_p {
+    color: gray;
+    font-size: 30px;
+}
+
+.sec {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 64;
+    margin: 5% 0% 5% 0%;
+}
+
+.sec_1_card {
+    background-color: white;
+    margin: 0px 10px 0px 0px;
+    padding: 32px;
+    border-radius: 10px;
+
+}
+
+#sec_2_card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    /* Frame 2087325495 */
+    padding: 32px;
+    border-radius: 10px;
+    margin: 0px 24px 0px 0px;
+}
+
+#sec_2_card1 button {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+#sec_2_card2 button {
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    outline: none;
+    background: rgb(9, 161, 92);
+    border: none;
+}
+
+#sec_2_card3 button {
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+#sec_2_card2 {
+    background-color: rgba(198, 228, 214);
+    /* Frame 2087325495 */
+    padding: 32px;
+    border-radius: 10px;
+
+    margin: 0px 24px 0px 0px;
+}
+
+#sec_2_card3 {
+    background-color: rgba(247, 235, 207);
+    /* Frame 2087325495 */
+    padding: 32px;
+    border-radius: 10px;
+
+    margin: 0px 24px 0px 0px;
+}
+
+#sec_3 {
+    display: flex;
+}
+
+#sec_3 p {
+    margin: 30px 0px 0px -60px;
+    line-height: 20px;
+}
+
+#sec3_div {
+    background-color: white;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+table {
+
+    /* margin: 50px auto; */
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    /* margin:  32px; */
+    /*  */
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid gray;
+    /* justify-content: space-between; */
+    width: 80%;
+
+}
+
+th {
+    /* background-color: #4CAF50;
+    color: white; */
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+
+tr td select {
+    background: rgb(198, 228, 214);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#sec_table {
+    background-color: white;
+    padding: 32px;
+
+}
+
+#sec_table table {
+    padding: 32px;
+}
+
+.sec4_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+    padding: 32px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+
+}
+
+.sec4_div div {
+    flex-grow: 10;
+    margin: 0px 10px 0px 25px;
+
+}
+
+.sec4_div div button {
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 10px;
+}
+
+.sec4_div img {
+    border-radius: 24px; 
+    
+}
+
+#donate{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#taka{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#taka h1{
+    padding: 30px;
+    background-color:white ;
+    border-radius: 10px;
+
+}
+
+#taka h1:hover {
+    background-color: rgba(0, 106, 62, 0.37);
+    border-radius: 10px;
+
+}
+
+#others{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    color: gray;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+#active{
+    background-color: rgba(0, 106, 62, 0.37);
+    padding: 200px;
+}
+
+#donate button{
+    color: white;
+    background: rgb(0, 106, 80);
+    padding: 9px 15px 9px 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+#subscribe{
+    background: rgb(198, 228, 214);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 90px 0px 90px 0px;
+    border-radius:10px 10px 10px 10px;
+}
+
+#subscribe input{
+    border: 0;
+    outline: 0;
+    padding:10px;
+    width: 50%;
+    border-radius:10px 0px 0px 10px;
+    
+}
+
+#subscribe span{
+    background: rgb(0, 106, 80);
+    padding: 8px;
+    color: white;
+    border-radius:0px 10px 10px 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
